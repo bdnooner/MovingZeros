@@ -2,7 +2,7 @@
 
 using namespace std;
 
-void * sortZero(float *arrayPtr, int size);
+float * sortZero(float *arrayPtr, int size);
 
 int main()
 {
@@ -30,7 +30,7 @@ int main()
 // Should sort the values in the array that it points to       //
 // to make all of the zeros get pushed to the end of the array //
 //*************************************************************//
-void * sortZero(float *arrayPtr, int size)
+float * sortZero(float *arrayPtr, int size)
 {
     int count = 0; // control the iterations through the array
     while(count < size)
